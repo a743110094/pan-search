@@ -89,3 +89,6 @@ temp/
 *.njsproj
 *.sln
 *.sw?
+
+# Claude AI configuration
+.claude/
