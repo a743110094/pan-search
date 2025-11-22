@@ -1,5 +1,12 @@
 # Dependencies
 node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Frontend build outputs
+frontend/dist/
+frontend/build/
+frontend/.vite/
 
 # Build outputs
 dist/
@@ -12,6 +19,8 @@ build/
 *.so
 *.dylib
 pan-search-api
+backend/pan-search-api
+backend/pan-search-api.exe
 
 # Environment variables
 .env
