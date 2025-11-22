@@ -5,6 +5,14 @@ node_modules/
 dist/
 build/
 
+# Go compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+pan-search-api
+
 # Environment variables
 .env
 .env.local
