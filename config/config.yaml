@@ -1,0 +1,33 @@
+# 应用配置
+app:
+  name: "pan-search-api"
+  version: "1.0.0"
+  port: 8080
+  mode: "debug" # debug/release
+
+# 数据库配置
+database:
+  host: "localhost"
+  port: 3306
+  username: "root"
+  password: ""
+  database: "pan_search"
+  charset: "utf8mb4"
+  parseTime: true
+  loc: "Local"
+  maxIdleConns: 10
+  maxOpenConns: 100
+  connMaxLifetime: "1h"
+
+# JWT配置
+jwt:
+  secret: "your-secret-key-change-in-production"
+  issuer: "pan-search-api"
+  expire: 24h
+
+# 日志配置
+log:
+  level: "info" # debug/info/warn/error
+  format: "json" # json/text
+  output: "stdout" # stdout/file
+  filePath: "./logs/app.log"
